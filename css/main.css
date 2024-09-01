@@ -838,6 +838,7 @@ footer.footer .copyright .fot_copyright a:hover {
 
 .pagenav span {
     display: inline-block;
+    float: left;
     line-height: 30px;
     font-weight: 700
 }
@@ -1260,6 +1261,7 @@ footer.footer .copyright .fot_copyright a:hover {
 
 .swatch .swatch-element {
     float: left;
+    -webkit-transform: translateZ(0);
     -webkit-font-smoothing: antialiased;
     margin: 0px 5px 5px 0;
     position: relative
@@ -2009,6 +2011,7 @@ select {
     position: relative;
     width: 110px;
     display: inline-block;
+    float: left;
     padding: 0;
     margin: 0;
     border: none;
@@ -2038,6 +2041,7 @@ select {
     transition: all ease 0.3s;
     line-height: 32px;
     display: inline-block;
+    float: left
 }
 
 .details-pro .form-product .custom-btn-number .custom-btn-numbers button.btn-minus {
@@ -2078,6 +2082,7 @@ select {
 
 .details-pro .form-product .custom-btn-number .vd {
     display: inline-block;
+    float: left;
     padding-left: 10px;
     line-height: 32px;
     font-family: var(--font-base);

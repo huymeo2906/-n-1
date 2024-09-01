@@ -70,7 +70,7 @@ body {
     line-height: 1.5;
     color: #212529;
     text-align: left;
-    background-color: #fff;
+    background-color: #fff
 }
 
 [tabindex="-1"]:focus {
@@ -94,8 +94,8 @@ h6 {
 }
 
 p {
-     margin-top:0; 
-     margin-bottom:1rem; 
+    margin-top: 0;
+    margin-bottom: 1rem
 }
 
 abbr[data-original-title],
@@ -278,6 +278,10 @@ select {
 [type=reset],
 [type=submit],
 button,
+html [type=button] {
+    -webkit-appearance: button
+}
+
 [type=button]::-moz-focus-inner,
 [type=reset]::-moz-focus-inner,
 [type=submit]::-moz-focus-inner,
@@ -295,6 +299,10 @@ input[type=radio] {
 input[type=date],
 input[type=datetime-local],
 input[type=month],
+input[type=time] {
+    -webkit-appearance: listbox
+}
+
 textarea {
     overflow: auto;
     resize: vertical
@@ -330,6 +338,7 @@ progress {
 
 [type=search] {
     outline-offset: -2px;
+    -webkit-appearance: none
 }
 
 [type=search]::-webkit-search-cancel-button,
@@ -5839,6 +5848,7 @@ button.close {
     padding: 0;
     background-color: transparent;
     border: 0;
+    -webkit-appearance: none
 }
 
 .modal-open {

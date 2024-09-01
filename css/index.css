@@ -403,6 +403,7 @@
     display: block;
     display: -webkit-box;
     -webkit-box-orient: vertical;
+    -webkit-line-clamp: 2;
     white-space: unset;
     max-height: 64px;
     text-overflow: ellipsis;
@@ -437,6 +438,7 @@
     white-space: nowrap;
     display: -webkit-box;
     -webkit-box-orient: vertical;
+    -webkit-line-clamp: 3;
     white-space: unset;
     margin: 5px 0 0;
     font-size: 14px;
