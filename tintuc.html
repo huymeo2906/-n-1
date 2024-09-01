@@ -6,7 +6,7 @@
     <meta name="theme-color" content="#f5af1a" />
     <meta http-equiv="Content-Security-Policy" content="block-all-mixed-content">
     <meta http-equiv="Content-Security-Policy" content="upgrade-insecure-requests">
-    <link rel="canonical" href="https://template-honey-bee.mysapo.net/account/register" />
+    <link rel="canonical" href="https://template-honey-bee.mysapo.net/tin-tuc" />
     <link rel="alternate" href="https://template-honey-bee.mysapo.net" hreflang="vi" />
     <meta name='revisit-after' content='2 days' />
     <link rel="preconnect" href="https://template-honey-bee.mysapo.net">
@@ -19,19 +19,19 @@
     <meta name="robots" content="noodp,index,follow" />
     <meta name="viewport" content="width=device-width, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no">
     <meta name="description" content="">
-    <title>Đăng ký tài khoản </title>
-    <meta name="keywords" content="Đăng ký tài khoản, Template Honey Bee, template-honey-bee.mysapo.net" />
+    <title>Tin tức </title>
+    <meta name="keywords" content="Tin tức, Template Honey Bee, template-honey-bee.mysapo.net" />
 
 
     <meta property="og:type" content="website">
-    <meta property="og:title" content="Đăng ký tài khoản">
+    <meta property="og:title" content="Tin tức">
     <meta property="og:image"
         content="https://bizweb.dktcdn.net/100/472/304/themes/887048/assets/share_fb_home.jpg?1684115584822">
     <meta property="og:image:secure_url"
         content="https://bizweb.dktcdn.net/100/472/304/themes/887048/assets/share_fb_home.jpg?1684115584822">
 
     <meta property="og:description" content="">
-    <meta property="og:url" content="https://template-honey-bee.mysapo.net/account/register">
+    <meta property="og:url" content="https://template-honey-bee.mysapo.net/tin-tuc">
     <meta property="og:site_name" content="Template Honey Bee">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -76,12 +76,13 @@
         type="text/css" media="all" />
 
     <link rel="preload" as='style' type="text/css"
-        href="//bizweb.dktcdn.net/100/472/304/themes/887048/assets/account_oder_style.scss.css?1684115584822">
-    <link href="//bizweb.dktcdn.net/100/472/304/themes/887048/assets/account_oder_style.scss.css?1684115584822"
+        href="//bizweb.dktcdn.net/100/472/304/themes/887048/assets/blog_article_style.scss.css?1684115584822">
+    <link href="//bizweb.dktcdn.net/100/472/304/themes/887048/assets/blog_article_style.scss.css?1684115584822"
         rel="stylesheet" type="text/css" media="all" />
-    <script src="//bizweb.dktcdn.net/assets/themes_support/bizweb-api.js" type="text/javascript"></script>
-    <script src="//bizweb.dktcdn.net/assets/themes_support/common.js" type="text/javascript"></script>
-    <script src="//bizweb.dktcdn.net/assets/themes_support/customer.js" type="text/javascript"></script>
+    <link rel="preload" as='style' type="text/css"
+        href="//bizweb.dktcdn.net/100/472/304/themes/887048/assets/sidebar_style.scss.css?1684115584822">
+    <link href="//bizweb.dktcdn.net/100/472/304/themes/887048/assets/sidebar_style.scss.css?1684115584822"
+        rel="stylesheet" type="text/css" media="all" />
     <script type="text/javascript">
         function addLoadEvent(e) { if (document.readyState === "complete") { e() } else { var t = window.onload; if (typeof window.onload != "function") { window.onload = e } else { window.onload = function () { if (t) { t() } e() } } } }
     </script>
@@ -100,7 +101,7 @@
         Bizweb.store = 'template-honey-bee.mysapo.net';
         Bizweb.id = 472304;
         Bizweb.theme = { "id": 887048, "name": "Honey Bee Farm 29-11-2022", "role": "main" };
-        Bizweb.template = 'customers/register';
+        Bizweb.template = 'blog';
         if (!Bizweb.fbEventId) Bizweb.fbEventId = 'xxxxxxxx-xxxx-4xxx-yxxx-xxxxxxxxxxxx'.replace(/[xy]/g, function (c) {
             var r = Math.random() * 16 | 0, v = c == 'x' ? r : (r & 0x3 | 0x8);
             return v.toString(16);
@@ -168,6 +169,15 @@
                   "name": "Trang chủ"
                 }
             },
+        {
+                "@type": "ListItem",
+                "position": 2,
+                "item": 
+                {
+                  "@id": "https://template-honey-bee.mysapo.net/tin-tuc",
+                  "name": "Tin tức"
+                }
+            }
         ]
         }
 </script>
@@ -279,7 +289,7 @@
                                                 </li>
                                             </ul>
                                         </li>
-                                        <li class="nav-item ">
+                                        <li class="nav-item  active ">
                                             <a class="a-img" href="/tintuc.html" title="Tin tức">
                                                 <span>Tin tức</span>
                                             </a>
@@ -434,103 +444,467 @@
                         <a href="/"><span>Trang chủ</span></a>
                         <span class="mr_lr">&nbsp;/&nbsp;</span>
                     </li>
-                    <li><strong><span>Đăng ký tài khoản</span></strong></li>
+                    <li><strong><span>Tin tức</span></strong></li>
                 </ul>
             </div>
         </nav>
-        <section class="section wrap_background">
-            <div class="container">
-                <div class="wrap_background_aside page_login">
-                    <div class="row">
-                        <div class="col-12 col-md-6 offset-md-3 col-lg-4 offset-lg-4">
-                            <div class="page-login">
-                                <div id="login">
-                                    <h1>
-                                        Thông tin cá nhân
-                                    </h1>
-                                    <form method="post" action="/account/register.html" id="customer_register"
-                                        accept-charset="UTF-8"><input name="FormType" type="hidden"
-                                            value="customer_register" /><input name="utf8" type="hidden"
-                                            value="true" /><input type="hidden"
-                                            id="Token-9b8122c530ed4e0baa4a02c9b8ba6234" name="Token" />
-                                        <script
-                                            src="https://www.google.com/recaptcha/api.js?render=6Ldtu4IUAAAAAMQzG1gCw3wFlx_GytlZyLrXcsuK"></script>
-                                        <script>grecaptcha.ready(function () { grecaptcha.execute("6Ldtu4IUAAAAAMQzG1gCw3wFlx_GytlZyLrXcsuK", { action: "customer_register" }).then(function (token) { document.getElementById("Token-9b8122c530ed4e0baa4a02c9b8ba6234").value = token }); });</script>
-                                        <div class="form-signup " style="color:red;">
+        <section class="blogpage clearfix wrap_background">
+            <div class="container" itemscope itemtype="https://schema.org/Blog">
+                <meta itemprop="name" content="Tin tức">
+                <meta itemprop="description" content="">
+                <div class="row">
+                    <div class=" col-lg-9 col-md-12 col-12 left-content">
+                        <h1 class="title_page">Tin tức</h1>
+
+
+                        <section class="list-blogs blog-main listmain_blog clearfix">
+                            <div class="row">
+
+                                <div class="col-md-6 col-12 col-lg-6 col-xl-4">
+                                    <article class="item_blog_base clearfix">
+                                        <a class="thumb" href="/mat-ong-rung-va-mat-ong-nuoi-loai-nao-tot-hon"
+                                            title="Mật ong rừng v&#224; mật ong nu&#244;i loại n&#224;o tốt hơn?">
+
+                                            <img src="data:image/gif;base64,R0lGODlhAQABAAAAACwAAAAAAQABAAA="
+                                                data-src="https://bizweb.dktcdn.net/100/472/304/articles/wallpaperflare-com-wallpaper-7.jpg?v=1669711748507"
+                                                alt="Mật ong rừng v&#224; mật ong nu&#244;i loại n&#224;o tốt hơn?"
+                                                class="lazyload img-responsive" />
+
+                                        </a>
+                                        <div class="content_blog clearfix">
+                                            <span class="post-time">
+
+
+                                                Thứ Ba,
+                                                29/11/2022
+                                            </span>
+                                            <h3>
+                                                <a href="/mat-ong-rung-va-mat-ong-nuoi-loai-nao-tot-hon"
+                                                    title="Mật ong rừng v&#224; mật ong nu&#244;i loại n&#224;o tốt hơn?">Mật
+                                                    ong rừng v&#224; mật ong nu&#244;i loại n&#224;o tốt hơn?</a>
+                                            </h3>
+
+                                            <div class="summary_blog">
+                                                Mật ong rừng được lấy từ những tổ ong sống dã sinh trong rừng. Khi lấy
+                                                mật, người ta sẽ phá luôn tổ ong. Mật ong nuôi được thu hoạch từ những
+                                                thùng...
+                                            </div>
 
                                         </div>
-                                        <div class="form-signup clearfix">
-                                            <div class="row">
-                                                <div class="col-md-12 col-lg-12 col-sm-12 col-xs-12">
-                                                    <fieldset class="form-group">
-                                                        <label>Họ <span class="required">*</span></label>
-                                                        <input type="text" class="form-control form-control-lg" value=""
-                                                            name="lastName" id="lastName" placeholder="Họ" required>
-                                                    </fieldset>
-                                                </div>
-                                                <div class="col-md-12">
-                                                    <fieldset class="form-group">
-                                                        <label>Tên <span class="required">*</span></label>
-                                                        <input type="text" class="form-control form-control-lg" value=""
-                                                            name="firstName" id="firstName" placeholder="Tên" required>
-                                                    </fieldset>
-                                                </div>
-                                                <div class="col-md-12 col-lg-12 col-sm-12 col-xs-12">
-                                                    <fieldset class="form-group">
-                                                        <label>Số điện thoại <span class="required">*</span></label>
-                                                        <input placeholder="Số điện thoại" type="text" pattern="\d+"
-                                                            id="Phone"
-                                                            class="form-control form-control-comment form-control-lg"
-                                                            name="Phone" Required>
-                                                    </fieldset>
-                                                </div>
+                                    </article>
+                                </div>
+
+                                <div class="col-md-6 col-12 col-lg-6 col-xl-4">
+                                    <article class="item_blog_base clearfix">
+                                        <a class="thumb" href="/tac-dung-cua-mat-ong-chin-doi-voi-suc-khoe"
+                                            title="T&#225;c dụng đến ko ngờ của mật ong ch&#237;n đối với sức khỏe">
+
+                                            <img src="data:image/gif;base64,R0lGODlhAQABAAAAACwAAAAAAQABAAA="
+                                                data-src="https://bizweb.dktcdn.net/100/472/304/articles/wallpaperflare-com-wallpaper-12.jpg?v=1669711557603"
+                                                alt="T&#225;c dụng đến ko ngờ của mật ong ch&#237;n đối với sức khỏe"
+                                                class="lazyload img-responsive" />
+
+                                        </a>
+                                        <div class="content_blog clearfix">
+                                            <span class="post-time">
+
+
+                                                Thứ Ba,
+                                                29/11/2022
+                                            </span>
+                                            <h3>
+                                                <a href="/tac-dung-cua-mat-ong-chin-doi-voi-suc-khoe"
+                                                    title="T&#225;c dụng đến ko ngờ của mật ong ch&#237;n đối với sức khỏe">T&#225;c
+                                                    dụng đến ko ngờ của mật ong ch&#237;n đối với sức khỏe</a>
+                                            </h3>
+
+                                            <div class="summary_blog">
+                                                Giàu vi chất dinh dưỡng
+                                                Một thìa mật ong chín (21 gam) chứa 64 calo và 17 gam đường. Bao gồm
+                                                fructose, glucose, maltose và sucrose. Mật ong chín hầ...
                                             </div>
-                                            <div class="row">
-                                                <div class="col-md-12 col-lg-12 col-sm-12 col-xs-12">
-                                                    <fieldset class="form-group">
-                                                        <label>Email <span class="required">*</span></label>
-                                                        <input type="email"
-                                                            pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,63}$"
-                                                            class="form-control form-control-lg" value="" name="email"
-                                                            id="email" placeholder="Email" required="">
-                                                    </fieldset>
-                                                </div>
-                                                <div class="col-md-12 col-lg-12 col-sm-12 col-xs-12">
-                                                    <fieldset class="form-group">
-                                                        <label>Mật khẩu <span class="required">*</span> </label>
-                                                        <input type="password" class="form-control form-control-lg"
-                                                            value="" name="password" id="password"
-                                                            placeholder="Mật khẩu" required>
-                                                    </fieldset>
-                                                </div>
-                                            </div>
-                                            <div class="section margin-top-10 button_bottom">
-                                                <button type="submit" value="Đăng ký"
-                                                    class="btn  btn-style btn_50 btn_register">Đăng ký</button>
-                                                <span class="or">Bạn đã có tài khoản? Đăng nhập
-                                                    <a href="/account/login.html" style="text-decoration: underline;"
-                                                        class="btn-link-style  btn-style margin-right-0">tại
-                                                        đây</a></span>
-                                            </div>
+
                                         </div>
-                                    </form>
-                                    <div class="block social-login--facebooks">
-                                        <p class="a-center">
-                                            Hoặc đăng nhập bằng
-                                        </p>
-                                        <script>function loginFacebook() { var a = { client_id: "947410958642584", redirect_uri: "https://store.mysapo.net/account/facebook_account_callback", state: JSON.stringify({ redirect_url: window.location.href }), scope: "email", response_type: "code" }, b = "https://www.facebook.com/v3.2/dialog/oauth" + encodeURIParams(a, !0); window.location.href = b } function loginGoogle() { var a = { client_id: "997675985899-pu3vhvc2rngfcuqgh5ddgt7mpibgrasr.apps.googleusercontent.com", redirect_uri: "https://store.mysapo.net/account/google_account_callback", scope: "email profile https://www.googleapis.com/auth/userinfo.email https://www.googleapis.com/auth/userinfo.profile", access_type: "online", state: JSON.stringify({ redirect_url: window.location.href }), response_type: "code" }, b = "https://accounts.google.com/o/oauth2/v2/auth" + encodeURIParams(a, !0); window.location.href = b } function encodeURIParams(a, b) { var c = []; for (var d in a) if (a.hasOwnProperty(d)) { var e = a[d]; null != e && c.push(encodeURIComponent(d) + "=" + encodeURIComponent(e)) } return 0 == c.length ? "" : (b ? "?" : "") + c.join("&") }</script>
-                                        <a href="javascript:void(0)" class="social-login--facebook"
-                                            onclick="loginFacebook()"><img width="129px" height="37px"
-                                                alt="facebook-login-button"
-                                                src="//bizweb.dktcdn.net/assets/admin/images/login/fb-btn.svg"></a>
-                                        <a href="javascript:void(0)" class="social-login--google"
-                                            onclick="loginGoogle()"><img width="129px" height="37px"
-                                                alt="google-login-button"
-                                                src="//bizweb.dktcdn.net/assets/admin/images/login/gp-btn.svg"></a>
+                                    </article>
+                                </div>
+
+                                <div class="col-md-6 col-12 col-lg-6 col-xl-4">
+                                    <article class="item_blog_base clearfix">
+                                        <a class="thumb" href="/cong-dung-va-huong-dan-dung-mat-ong-dung-cach"
+                                            title="C&#244;ng dụng v&#224; hướng dẫn d&#249;ng mật ong đ&#250;ng c&#225;ch">
+
+                                            <img src="data:image/gif;base64,R0lGODlhAQABAAAAACwAAAAAAQABAAA="
+                                                data-src="https://bizweb.dktcdn.net/100/472/304/articles/wallpaperflare-com-wallpaper.jpg?v=1669709493977"
+                                                alt="C&#244;ng dụng v&#224; hướng dẫn d&#249;ng mật ong đ&#250;ng c&#225;ch"
+                                                class="lazyload img-responsive" />
+
+                                        </a>
+                                        <div class="content_blog clearfix">
+                                            <span class="post-time">
+
+
+                                                Thứ Ba,
+                                                29/11/2022
+                                            </span>
+                                            <h3>
+                                                <a href="/cong-dung-va-huong-dan-dung-mat-ong-dung-cach"
+                                                    title="C&#244;ng dụng v&#224; hướng dẫn d&#249;ng mật ong đ&#250;ng c&#225;ch">C&#244;ng
+                                                    dụng v&#224; hướng dẫn d&#249;ng mật ong đ&#250;ng c&#225;ch</a>
+                                            </h3>
+
+                                            <div class="summary_blog">
+                                                1. Những điều cần biết về mật ong&nbsp;
+                                                Mật ong là một chất lỏng ngọt ngào được tạo ra bởi những con ong sử dụng
+                                                mật hoa từ hoa, có khoảng 320 loại...
+                                            </div>
+
+                                        </div>
+                                    </article>
+                                </div>
+
+                                <div class="col-md-6 col-12 col-lg-6 col-xl-4">
+                                    <article class="item_blog_base clearfix">
+                                        <a class="thumb" href="/nhung-ai-nen-dung-mat-ong-thuong-xuyen"
+                                            title="Những ai th&#236; n&#234;n d&#249;ng mật ong thường xuy&#234;n?">
+
+                                            <img src="data:image/gif;base64,R0lGODlhAQABAAAAACwAAAAAAQABAAA="
+                                                data-src="https://bizweb.dktcdn.net/100/472/304/articles/wallpaperflare-com-wallpaper-13.jpg?v=1669712533677"
+                                                alt="Những ai th&#236; n&#234;n d&#249;ng mật ong thường xuy&#234;n?"
+                                                class="lazyload img-responsive" />
+
+                                        </a>
+                                        <div class="content_blog clearfix">
+                                            <span class="post-time">
+
+
+                                                Thứ Ba,
+                                                29/11/2022
+                                            </span>
+                                            <h3>
+                                                <a href="/nhung-ai-nen-dung-mat-ong-thuong-xuyen"
+                                                    title="Những ai th&#236; n&#234;n d&#249;ng mật ong thường xuy&#234;n?">Những
+                                                    ai th&#236; n&#234;n d&#249;ng mật ong thường xuy&#234;n?</a>
+                                            </h3>
+
+                                            <div class="summary_blog">
+                                                Những ai nên dùng mật ong? Mật ong là thực phẩm chứa nhiều công dụng tốt
+                                                cho làn da, đường tiêu hóa. Nó còn được xem như một “vị thuốc tự nhiên”
+                                                gi...
+                                            </div>
+
+                                        </div>
+                                    </article>
+                                </div>
+
+                                <div class="col-md-6 col-12 col-lg-6 col-xl-4">
+                                    <article class="item_blog_base clearfix">
+                                        <a class="thumb" href="/do-ngot-cua-mat-ong-vi-sao-lai-khac-nhau"
+                                            title="Độ ngọt của mật ong – v&#236; sao lại kh&#225;c nhau?">
+
+                                            <img src="data:image/gif;base64,R0lGODlhAQABAAAAACwAAAAAAQABAAA="
+                                                data-src="https://bizweb.dktcdn.net/100/472/304/articles/wallpaperflare-com-wallpaper-9.jpg?v=1669712045017"
+                                                alt="Độ ngọt của mật ong – v&#236; sao lại kh&#225;c nhau?"
+                                                class="lazyload img-responsive" />
+
+                                        </a>
+                                        <div class="content_blog clearfix">
+                                            <span class="post-time">
+
+
+                                                Thứ Ba,
+                                                29/11/2022
+                                            </span>
+                                            <h3>
+                                                <a href="/do-ngot-cua-mat-ong-vi-sao-lai-khac-nhau"
+                                                    title="Độ ngọt của mật ong – v&#236; sao lại kh&#225;c nhau?">Độ
+                                                    ngọt của mật ong – v&#236; sao lại kh&#225;c nhau?</a>
+                                            </h3>
+
+                                            <div class="summary_blog">
+                                                Độ ngọt của mật ong cũng là một chủ đề gây tranh cãi. Một số loại ngọt
+                                                gắt trong khi một số khác ngọt dịu.
+                                                Tại sao mật ong ngọt?
+                                                Mật ong ngọt là ...
+                                            </div>
+
+                                        </div>
+                                    </article>
+                                </div>
+
+                                <div class="col-md-6 col-12 col-lg-6 col-xl-4">
+                                    <article class="item_blog_base clearfix">
+                                        <a class="thumb" href="/bao-quan-mat-ong-trong-bao-lau-va-nhu-the-nao"
+                                            title="Bảo quản mật ong trong bao l&#226;u v&#224; như thế n&#224;o?">
+
+                                            <img src="data:image/gif;base64,R0lGODlhAQABAAAAACwAAAAAAQABAAA="
+                                                data-src="https://bizweb.dktcdn.net/100/472/304/articles/wallpaperflare-com-wallpaper-2.jpg?v=1669711398100"
+                                                alt="Bảo quản mật ong trong bao l&#226;u v&#224; như thế n&#224;o?"
+                                                class="lazyload img-responsive" />
+
+                                        </a>
+                                        <div class="content_blog clearfix">
+                                            <span class="post-time">
+
+
+                                                Thứ Ba,
+                                                29/11/2022
+                                            </span>
+                                            <h3>
+                                                <a href="/bao-quan-mat-ong-trong-bao-lau-va-nhu-the-nao"
+                                                    title="Bảo quản mật ong trong bao l&#226;u v&#224; như thế n&#224;o?">Bảo
+                                                    quản mật ong trong bao l&#226;u v&#224; như thế n&#224;o?</a>
+                                            </h3>
+
+                                            <div class="summary_blog">
+                                                Bảo quản mật ong bao lâu để có thể giữ nguyên hương vị và giá trị của
+                                                nó? Bạn phải làm gì khi mở nút chai hay hũ? Điều này phụ thuộc vào chất
+                                                lượng...
+                                            </div>
+
+                                        </div>
+                                    </article>
+                                </div>
+
+                            </div>
+                        </section>
+                        <div class="text-xs-right pagenav section clearfix">
+
+                        </div>
+
+
+                    </div>
+                    <div class=" col-lg-3 col-md-12 col-12 right-content">
+
+                        <aside class="aside-item blog-category sidebar-category collection-category clear-fix">
+                            <div class="aside-title">
+                                <h2><span>Danh mục tin tức</span></h2>
+                            </div>
+                            <div class="aside-content clearfix">
+                                <nav class="nav-category navbar-toggleable-md">
+                                    <ul class="nav navbar-pills">
+                                        <li class="nav-item"><a class="nav-link" href="/">
+                                                Trang chủ
+                                            </a>
+                                        </li>
+                                        <li class="nav-item ">
+                                            <a href="/collections/all" class="nav-link">
+                                                Sản phẩm
+                                            </a>
+                                            <svg aria-hidden="true" focusable="false" data-prefix="fas"
+                                                data-icon="angle-down" role="img" xmlns="http://www.w3.org/2000/svg"
+                                                viewBox="0 0 320 512"
+                                                class="fa-plus svg-inline--fa fa-angle-down fa-w-10">
+                                                <path fill="currentColor"
+                                                    d="M143 352.3L7 216.3c-9.4-9.4-9.4-24.6 0-33.9l22.6-22.6c9.4-9.4 24.6-9.4 33.9 0l96.4 96.4 96.4-96.4c9.4-9.4 24.6-9.4 33.9 0l22.6 22.6c9.4 9.4 9.4 24.6 0 33.9l-136 136c-9.2 9.4-24.4 9.4-33.8 0z"
+                                                    class=""></path>
+                                            </svg>
+                                            <ul class="dropdown-menu">
+                                                <li class="nav-item">
+                                                    <a class="nav-link" href="/mat-ong-thien-nhien">
+                                                        Mật ong nhập khẩu
+                                                    </a>
+                                                </li>
+                                                <li class="dropdown-submenu nav-item">
+                                                    <a class="nav-link" href="/mat-ong-rung">
+                                                        Mật ong rừng
+                                                    </a>
+                                                    <svg aria-hidden="true" focusable="false" data-prefix="fas"
+                                                        data-icon="angle-down" role="img"
+                                                        xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 512"
+                                                        class="fa-plus svg-inline--fa fa-angle-down fa-w-10">
+                                                        <path fill="currentColor"
+                                                            d="M143 352.3L7 216.3c-9.4-9.4-9.4-24.6 0-33.9l22.6-22.6c9.4-9.4 24.6-9.4 33.9 0l96.4 96.4 96.4-96.4c9.4-9.4 24.6-9.4 33.9 0l22.6 22.6c9.4 9.4 9.4 24.6 0 33.9l-136 136c-9.2 9.4-24.4 9.4-33.8 0z"
+                                                            class=""></path>
+                                                    </svg>
+                                                    <ul class="dropdown-menu">
+                                                        <li class="nav-item lv3">
+                                                            <a class="nav-link" href="/mat-ong-thien-nhien">
+                                                                Mật ong rừng nhiệt đới
+                                                            </a>
+                                                        </li>
+                                                        <li class="nav-item lv3">
+                                                            <a class="nav-link" href="/mat-ong-rung">
+                                                                Mật ong rừng hoa
+                                                            </a>
+                                                        </li>
+                                                        <li class="nav-item lv3">
+                                                            <a class="nav-link" href="/mat-ong-rung">
+                                                                Mật ong rừng nhập mặn
+                                                            </a>
+                                                        </li>
+                                                    </ul>
+                                                </li>
+                                                <li class="nav-item">
+                                                    <a class="nav-link" href="/mat-ong-hoa">
+                                                        Mật ong hoa
+                                                    </a>
+                                                </li>
+                                                <li class="nav-item">
+                                                    <a class="nav-link" href="/mat-ong-thien-nhien">
+                                                        Mật ong thiên nhiên
+                                                    </a>
+                                                </li>
+                                                <li class="nav-item">
+                                                    <a class="nav-link" href="/mat-ong-hoa">
+                                                        Mật ong nguyên chất
+                                                    </a>
+                                                </li>
+                                            </ul>
+                                        </li>
+                                        <li class="nav-item"><a class="nav-link" href="/tintuc.html">
+                                                Tin tức
+                                            </a>
+                                        </li>
+                                        <li class="nav-item"><a class="nav-link" href="/liên hệ.html">
+                                                Liên hệ
+                                            </a>
+                                        </li>
+                                        <li class="nav-item"><a class="nav-link" href="/gioi-thieu">
+                                                Giới thiệu
+                                            </a>
+                                        </li>
+                                        <li class="nav-item"><a class="nav-link" href="/cam-nang">
+                                                Cẩm nang
+                                            </a>
+                                        </li>
+                                    </ul>
+                                </nav>
+                            </div>
+                        </aside>
+
+
+                        <div class="blog-aside aside-item blog-aside-article">
+                            <div class="aside-title">
+                                <h2>
+                                    <a href="tintuc.html" title="Chủ đề hot">Chủ đề hot</a>
+                                </h2>
+                            </div>
+                            <div class="aside-content-article aside-content">
+                                <div class="blog-list blog-image-list">
+
+
+
+                                    <div class="loop-blog clearfix">
+                                        <div class="thumb-left">
+                                            <a href="/mat-ong-rung-va-mat-ong-nuoi-loai-nao-tot-hon"
+                                                title="Mật ong rừng và mật ong nuôi loại nào tốt hơn?">
+
+                                                <img class="lazyload"
+                                                    src="data:image/gif;base64,R0lGODlhAQABAAAAACwAAAAAAQABAAA="
+                                                    data-src="//bizweb.dktcdn.net/thumb/small/100/472/304/articles/wallpaperflare-com-wallpaper-7.jpg?v=1669711748507"
+                                                    alt="Mật ong rừng và mật ong nuôi loại nào tốt hơn?">
+
+                                            </a>
+                                        </div>
+                                        <div class="name-right">
+                                            <h3><a href="/mat-ong-rung-va-mat-ong-nuoi-loai-nao-tot-hon"
+                                                    title="Mật ong rừng và mật ong nuôi loại nào tốt hơn?">Mật ong rừng
+                                                    và mật ong nuôi loại nào tốt hơn?</a></h3>
+                                            <span class="post-time">
+                                                <svg class="icon">
+                                                    <use xmlns:xlink="http://www.w3.org/1999/xlink"
+                                                        xlink:href="#calendaricon"></use>
+                                                </svg>
+
+
+                                                Thứ Ba,
+                                                29/11/2022
+                                            </span>
+                                        </div>
                                     </div>
+
+                                    <div class="loop-blog clearfix">
+                                        <div class="thumb-left">
+                                            <a href="/tac-dung-cua-mat-ong-chin-doi-voi-suc-khoe"
+                                                title="Tác dụng đến ko ngờ của mật ong chín đối với sức khỏe">
+
+                                                <img class="lazyload"
+                                                    src="data:image/gif;base64,R0lGODlhAQABAAAAACwAAAAAAQABAAA="
+                                                    data-src="//bizweb.dktcdn.net/thumb/small/100/472/304/articles/wallpaperflare-com-wallpaper-12.jpg?v=1669711557603"
+                                                    alt="Tác dụng đến ko ngờ của mật ong chín đối với sức khỏe">
+
+                                            </a>
+                                        </div>
+                                        <div class="name-right">
+                                            <h3><a href="/tac-dung-cua-mat-ong-chin-doi-voi-suc-khoe"
+                                                    title="Tác dụng đến ko ngờ của mật ong chín đối với sức khỏe">Tác
+                                                    dụng đến ko ngờ của mật ong chín đối với sức khỏe</a></h3>
+                                            <span class="post-time">
+                                                <svg class="icon">
+                                                    <use xmlns:xlink="http://www.w3.org/1999/xlink"
+                                                        xlink:href="#calendaricon"></use>
+                                                </svg>
+
+
+                                                Thứ Ba,
+                                                29/11/2022
+                                            </span>
+                                        </div>
+                                    </div>
+
+                                    <div class="loop-blog clearfix">
+                                        <div class="thumb-left">
+                                            <a href="/cong-dung-va-huong-dan-dung-mat-ong-dung-cach"
+                                                title="Công dụng và hướng dẫn dùng mật ong đúng cách">
+
+                                                <img class="lazyload"
+                                                    src="data:image/gif;base64,R0lGODlhAQABAAAAACwAAAAAAQABAAA="
+                                                    data-src="//bizweb.dktcdn.net/thumb/small/100/472/304/articles/wallpaperflare-com-wallpaper.jpg?v=1669709493977"
+                                                    alt="Công dụng và hướng dẫn dùng mật ong đúng cách">
+
+                                            </a>
+                                        </div>
+                                        <div class="name-right">
+                                            <h3><a href="/cong-dung-va-huong-dan-dung-mat-ong-dung-cach"
+                                                    title="Công dụng và hướng dẫn dùng mật ong đúng cách">Công dụng và
+                                                    hướng dẫn dùng mật ong đúng cách</a></h3>
+                                            <span class="post-time">
+                                                <svg class="icon">
+                                                    <use xmlns:xlink="http://www.w3.org/1999/xlink"
+                                                        xlink:href="#calendaricon"></use>
+                                                </svg>
+
+
+                                                Thứ Ba,
+                                                29/11/2022
+                                            </span>
+                                        </div>
+                                    </div>
+
+                                    <div class="loop-blog clearfix">
+                                        <div class="thumb-left">
+                                            <a href="/nhung-ai-nen-dung-mat-ong-thuong-xuyen"
+                                                title="Những ai thì nên dùng mật ong thường xuyên?">
+
+                                                <img class="lazyload"
+                                                    src="data:image/gif;base64,R0lGODlhAQABAAAAACwAAAAAAQABAAA="
+                                                    data-src="//bizweb.dktcdn.net/thumb/small/100/472/304/articles/wallpaperflare-com-wallpaper-13.jpg?v=1669712533677"
+                                                    alt="Những ai thì nên dùng mật ong thường xuyên?">
+
+                                            </a>
+                                        </div>
+                                        <div class="name-right">
+                                            <h3><a href="/nhung-ai-nen-dung-mat-ong-thuong-xuyen"
+                                                    title="Những ai thì nên dùng mật ong thường xuyên?">Những ai thì nên
+                                                    dùng mật ong thường xuyên?</a></h3>
+                                            <span class="post-time">
+                                                <svg class="icon">
+                                                    <use xmlns:xlink="http://www.w3.org/1999/xlink"
+                                                        xlink:href="#calendaricon"></use>
+                                                </svg>
+
+
+                                                Thứ Ba,
+                                                29/11/2022
+                                            </span>
+                                        </div>
+                                    </div>
+
+
                                 </div>
                             </div>
                         </div>
+
                     </div>
                 </div>
             </div>
@@ -684,8 +1058,6 @@
 
 
 
-    <link rel="preload"
-        href="//bizweb.dktcdn.net/100/472/304/themes/887048/assets/js-customer-validate.js?1684115584822" as="script">
 
 
     <script type="text/javascript" src="//bizweb.dktcdn.net/assets/themes_support/api.jquery.js"></script>
