@@ -71,7 +71,7 @@
 
 .section_index_product .details-pro .box_details_product:before {
     content: "";
-    background: url(//bizweb.dktcdn.net/100/472/304/themes/887048/assets/bg_leaf.png?1669860396881);
+    background: url(/image/bg_leaf.png);
     width: 116px;
     background-repeat: no-repeat;
     background-size: contain;
@@ -250,7 +250,7 @@
         position: absolute;
         right: -20px;
         top: 10px;
-        background: url(//bizweb.dktcdn.net/100/472/304/themes/887048/assets/bee_1.png?1669860396881);
+        background: url(/image/bee_1.png);
         background-repeat: no-repeat;
         background-size: contain;
         z-index: 9
@@ -263,7 +263,7 @@
         position: absolute;
         right: -30px;
         bottom: -20px;
-        background: url(//bizweb.dktcdn.net/100/472/304/themes/887048/assets/bee_3.png?1669860396881);
+        background: url(/image/bee_3.png);
         background-repeat: no-repeat;
         background-size: contain;
         z-index: 9
@@ -276,7 +276,7 @@
         position: absolute;
         left: 0;
         top: 10px;
-        background: url(//bizweb.dktcdn.net/100/472/304/themes/887048/assets/bee_2.png?1669860396881);
+        background: url(/image/bee_2.webp);
         background-repeat: no-repeat;
         background-size: contain;
         z-index: 9

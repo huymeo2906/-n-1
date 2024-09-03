@@ -1,7 +1,6 @@
 img {
-    max-width: 100%
+    max-width: 100%;
 }
-
 button {
     background: transparent;
     border: none;
@@ -1206,7 +1205,7 @@ footer.footer .copyright .fot_copyright a:hover {
 
 .swatch .color input:checked+label:after {
     content: "";
-    background-image: url(//bizweb.dktcdn.net/100/472/304/themes/887048/assets/i-check.svg?1669780435482);
+    background-image: url("/image/i-check.svg");
     background-repeat: no-repeat;
     width: 18px;
     height: 12px;
@@ -1620,7 +1619,7 @@ select {
     -moz-appearance: none;
     appearance: none;
     background-position: right center;
-    background-image: url(//bizweb.dktcdn.net/100/472/304/themes/887048/assets/ico-select.png?1669780435482);
+    background-image: url(/image/ico-select.png);
     background-repeat: no-repeat;
     background-position: right 10px center;
     background-color: #fff !important;
@@ -1703,7 +1702,7 @@ select {
 .details-pro .product-summary ul li:before,
 .details-pro .product-content ul li:before {
     content: "";
-    background: url(//bizweb.dktcdn.net/100/472/304/themes/887048/assets/li_bee.png?1669780435482);
+    background: url(/image/li_bee.png);
     height: 12px;
     width: 12px;
     background-size: cover;
