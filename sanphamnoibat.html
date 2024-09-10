@@ -14,11 +14,12 @@
     <meta name="robots" content="noodp,index,follow" />
     <meta name="viewport" content="width=device-width, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no">
     <meta name="description" content="">
-    <title>Mật ong rừng </title>
-    <meta name="keywords" content="Mật ong rừng, Template Honey Bee, template-honey-bee.mysapo.net" />
+    <title>Sản phẩm nổi bật </title>
+    <meta name="keywords" content="Sản phẩm nổi bật, Template Honey Bee, template-honey-bee.mysapo.net" />
 
 
     <meta property="og:type" content="website">
+    <meta property="og:title" content="Sản phẩm nổi bật">
     <meta property="og:image"
         content="https://bizweb.dktcdn.net/100/472/304/themes/887048/assets/share_fb_home.jpg?1684115584822">
     <meta property="og:image:secure_url"
@@ -73,15 +74,15 @@
     <link href="/css/sidebarstyle.css"
         rel="stylesheet" type="text/css" media="all" />
     <link rel="preload" as='style' type="text/css"
-        href="/css/collectionstyle.css">
-    <link href="/css/collectionstyle.css"
+        href="css/collectionstyle.css">
+    <link href="css/collectionstyle.css"
         rel="stylesheet" type="text/css" media="all" />
     <script type="text/javascript">
         function addLoadEvent(e) { if (document.readyState === "complete") { e() } else { var t = window.onload; if (typeof window.onload != "function") { window.onload = e } else { window.onload = function () { if (t) { t() } e() } } } }
     </script>
     <script>
         window.theme = window.theme || {};
-        var cartCount = 4;
+        var cartCount = 0;
 
         theme.settings = {
             moneyFormat: "{{amount_no_decimals_with_comma_separator}}₫",
@@ -134,56 +135,57 @@
 
 
     <script src="/js/stars.min.js"></script>
-    
+
+
+
+
+
+
+
+
+
+
+
+
+
     <script type="application/ld+json">
+        {
+        "@context": "http://schema.org",
+        "@type": "BreadcrumbList",
+        "itemListElement": 
+        [
             {
-            "@context": "http://schema.org",
-            "@type": "BreadcrumbList",
-            "itemListElement": 
-            [
+                "@type": "ListItem",
+                "position": 1,
+                "item": 
                 {
-                    "@type": "ListItem",
-                    "position": 1,
-                    "item": 
-                    {
-                      "@id": "index.html",
-                      "name": "Trang chủ"
-                    }
-                },
-          {
-                    "@type": "ListItem",
-                    "position": 2,
-                    "item": 
-                    {
-                      "@id": "matongrung.html",
-                      "name": "Mật ong rừng"
-                    }
-                }        ]
-            }
-    </script>
-
-
-
-
-
-    <link rel="preload" as="image"
-        href="/image/slider_1.webp"
-        media="screen and (max-width: 480px)">
-    <link rel="preload" as="image"
-        href="/image/slider_1.webp"
-        media="screen and (min-width: 481px)">
+                  "@id": "index.html",
+                  "name": "Trang chủ"
+                }
+            },
+      {
+                "@type": "ListItem",
+                "position": 2,
+                "item": 
+                {
+                  "@id": "sanphamnoibat.html",
+                  "name": "Sản phẩm nổi bật"
+                }
+            }        ]
+        }
+</script>
+    <link rel="preload" as="image" href="/image/slider_1.webp" media="screen and (max-width: 480px)">
+    <link rel="preload" as="image" href="/image/slider_1.webp" media="screen and (min-width: 481px)">
 </head>
 
 <body>
     <div class="opacity_menu"></div>
-    <script src="/js/jquery-plugin.js"
-        type="text/javascript"></script>
-    <link rel="preload" href="/js/sweper-pugin.js"
-        as="script">
-    <script src="/js/sweper-pugin.js"></script>
+<script src="/js/jquery-plugin.js" type="text/javascript"></script>
+<link rel="preload" href="/js/sweper-pugin.js" as="script">
+<script src="/js/sweper-pugin.js"></script>
     <header class="header">
         <div class="tophead lazyload"
-            data-src="//bizweb.dktcdn.net/100/472/304/themes/887048/assets/bg_header.png?1684115584822">
+            data-src="/image/bg_header.webp">
             <div class="container">
                 <div class="text_tophead">
                     <img class="img-responsive lazyload"
@@ -222,42 +224,37 @@
                                                 <span>Trang chủ</span>
                                             </a>
                                         </li>
+                                    
                                         <li class="nav-item level0 ">
                                             <a class="a-img" href="/tatcasanpham.html" title="Sản phẩm">
-                                                Sản phẩm <svg aria-hidden="true" focusable="false" data-prefix="fas"
-                                                    data-icon="caret-down" role="img" xmlns="http://www.w3.org/2000/svg"
-                                                    viewBox="0 0 320 512" class="svg-inline--fa fa-caret-down fa-w-10">
+                                                Sản phẩm <svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="caret-down" role="img"
+                                                    xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 512" class="svg-inline--fa fa-caret-down fa-w-10">
                                                     <path fill="currentColor"
                                                         d="M31.3 192h257.3c17.8 0 26.7 21.5 14.1 34.1L174.1 354.8c-7.8 7.8-20.5 7.8-28.3 0L17.2 226.1C4.6 213.5 13.5 192 31.3 192z"
                                                         class=""></path>
                                                 </svg>
                                             </a>
-
+                                    
                                             <i class="icon icon-plus"></i>
-
+                                    
                                             <ul class="item_small level0">
                                                 <li class="level1">
-                                                    <a href="/matongthiennhien.html" title="Mật ong nhập khẩu">Mật ong
-                                                        nhập khẩu</a>
+                                                    <a href="/matongthiennhien.html" title="Mật ong nhập khẩu">Mật ong nhập khẩu</a>
                                                 </li>
                                                 <li class="level1">
-                                                    <a href="/matongrung.html" title="Mật ong rừng">Mật ong rừng<i
-                                                            class="icon-right"></i></a>
+                                                    <a href="/matongrung.html" title="Mật ong rừng">Mật ong rừng<i class="icon-right"></i></a>
                                                     <i class="icon icon-plus"></i>
-
+                                    
                                                     <ul class="level1">
                                                         <li class="level2">
-                                                            <a href="/matongthiennhien.html"
-                                                                title="Mật ong rừng nhiệt đới" class="a3">Mật ong rừng
-                                                                nhiệt đới</a>
+                                                            <a href="/matongthiennhien.html" title="Mật ong rừng nhiệt đới" class="a3">Mật ong rừng nhiệt
+                                                                đới</a>
                                                         </li>
                                                         <li class="level2">
-                                                            <a href="/matongrung.html" title="Mật ong rừng hoa"
-                                                                class="a3">Mật ong rừng hoa</a>
+                                                            <a href="/matongrung.html" title="Mật ong rừng hoa" class="a3">Mật ong rừng hoa</a>
                                                         </li>
                                                         <li class="level2">
-                                                            <a href="/matongrung.html" title="Mật ong rừng nhập mặn"
-                                                                class="a3">Mật ong rừng nhập mặn</a>
+                                                            <a href="/matongrung.html" title="Mật ong rừng nhập mặn" class="a3">Mật ong rừng nhập mặn</a>
                                                         </li>
                                                     </ul>
                                                 </li>
@@ -265,12 +262,10 @@
                                                     <a href="/matonghoa.html" title="Mật ong hoa">Mật ong hoa</a>
                                                 </li>
                                                 <li class="level1">
-                                                    <a href="/matongthiennhien.html" title="Mật ong thiên nhiên">Mật ong
-                                                        thiên nhiên</a>
+                                                    <a href="/matongthiennhien.html" title="Mật ong thiên nhiên">Mật ong thiên nhiên</a>
                                                 </li>
                                                 <li class="level1">
-                                                    <a href="/matonghoa.html" title="Mật ong nguyên chất">Mật ong nguyên
-                                                        chất</a>
+                                                    <a href="/matonghoa.html" title="Mật ong nguyên chất">Mật ong nguyên chất</a>
                                                 </li>
                                             </ul>
                                         </li>
@@ -382,11 +377,11 @@
                                 </div>
                             <form action="/searchmatong hoa.html" class="input-group search-bar theme-header-search-form ultimate-search"
                                 role="search">
-                                <input type="text" aria-label="Tìm sản phẩm hoa" name="query" value="mat ong hoa" autocomplete="off"
-                                    placeholder="Từ khóa tìm kiếm hoa" class="search-auto input-group-field auto-search" required="">
+                                <input type="text" aria-label="Tìm sản phẩm" name="query" value="mat ong hoa" autocomplete="off"
+                                    placeholder="Từ khóa tìm kiếm" class="search-auto input-group-field auto-search" required="">
                                 <input type="hidden" name="type" value="product">
                                 <span class="input-group-btn">
-                                    <button class="btn icon-fallback-text" aria-label="Search">
+                                    <button class="btn icon-fallback-text" aria-label="Justify">
                                         <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
                                             <path
                                                 d="M505 442.7L405.3 343c-4.5-4.5-10.6-7-17-7H372c27.6-35.3 44-79.7 44-128C416 93.1 322.9 0 208 0S0 93.1 0 208s93.1 208 208 208c48.3 0 92.7-16.4 128-44v16.3c0 6.4 2.5 12.5 7 17l99.7 99.7c9.4 9.4 24.6 9.4 33.9 0l28.3-28.3c9.4-9.4 9.4-24.6.1-34zM208 336c-70.7 0-128-57.2-128-128 0-70.7 57.2-128 128-128 70.7 0 128 57.2 128 128 0 70.7-57.2 128-128 128z" />
@@ -394,8 +389,6 @@
                                     </button>
                                 </span>
                             </form>
-                            
-
                             </div>
                             <div class="top-cart-contain">
                                 <a class="img_hover_cart" href="/cart.html" title="Giỏ hàng">
@@ -429,7 +422,7 @@
                         <a href="/"><span>Trang chủ</span></a>
                         <span class="mr_lr">&nbsp;/&nbsp;</span>
                     </li>
-                    <li><strong><span>Mật ong rừng</span></strong></li>
+                    <li><strong><span>Sản phẩm nổi bật</span></strong></li>
                 </ul>
             </div>
         </nav>
@@ -542,7 +535,7 @@
                             <div class="sortPagiBar">
                                 <div class="row">
                                     <div class="col-xl-8 col-md-6 col-12">
-                                        <h1 class="collectiontitle">Mật ong rừng</h1>
+                                        <h1 class="collectiontitle">Sản phẩm nổi bật</h1>
                                     </div>
                                     <div class="col-xl-4 col-md-6 col-12">
 
@@ -619,126 +612,38 @@
 
 
 
-
                                                 <form action="/cart/add" method="post"
                                                     class="variants product-action wishItem" data-cart-form
-                                                    data-id="product-actions-28669925" enctype="multipart/form-data">
+                                                    data-id="product-actions-28668377" enctype="multipart/form-data">
                                                     <div class="product-thumbnail">
-                                                        <a class="image_thumb" href="/mat-ong-rung-mat-khoai"
-                                                            title="Mật ong rừng mật khoái">
+                                                        <a class="image_thumb"
+                                                            href="/matongrunghoayenbachhonimore.html"
+                                                            title="Mật ong rừng Hoa Yên Bạch Honimore">
                                                             <img width="199" height="199"
                                                                 src="data:image/gif;base64,R0lGODlhAQABAAAAACwAAAAAAQABAAA="
-                                                                data-src="/image/14.webp"
-                                                                alt="Mật ong rừng mật khoái"
-                                                                class="lazyload img-responsive center-block" />
-                                                        </a>
-
-                                                        <div class="action-cart">
-                                                            <input type="hidden" name="variantId" value="76949082" />
-                                                            <button class="btn-buy btn-left btn-views add_to_cart "
-                                                                title="Mua ngay">
-                                                                Mua ngay
-                                                            </button>
-                                                        </div>
-                                                    </div>
-                                                    <div class="info-product">
-                                                        <h3 class="product-name"><a href="/mat-ong-rung-mat-khoai"
-                                                                title="Mật ong rừng mật khoái">Mật ong rừng mật
-                                                                khoái</a></h3>
-                                                        <div class="price-box">
-                                                            500.000₫
-                                                        </div>
-                                                    </div>
-                                                </form>
-                                            </div>
-                                        </div>
-
-                                        <div class="col-12 col-md-4 col-lg-4 col-lg-4 product-col">
-                                            <div class="item_product_main">
-
-
-
-
-                                                <form action="/cart/add" method="post"
-                                                    class="variants product-action wishItem" data-cart-form
-                                                    data-id="product-actions-28669317" enctype="multipart/form-data">
-                                                    <div class="product-thumbnail">
-                                                        <a class="image_thumb" href="/matongrunghoarungphuongnam.html"
-                                                            title="Mật ong rừng Hoa Rừng Phương Nam">
-                                                            <img width="199" height="199"
-                                                                src="data:image/gif;base64,R0lGODlhAQABAAAAACwAAAAAAQABAAA="
-                                                                data-src="/image/17.webp"
-                                                                alt="Mật ong rừng Hoa Rừng Phương Nam"
-                                                                class="lazyload img-responsive center-block" />
-                                                        </a>
-
-                                                        <div class="action-cart">
-                                                            <input type="hidden" name="variantId" value="76947769" />
-                                                            <button class="btn-buy btn-left btn-views add_to_cart "
-                                                                title="Mua ngay">
-                                                                Mua ngay
-                                                            </button>
-                                                        </div>
-                                                    </div>
-                                                    <div class="info-product">
-                                                        <h3 class="product-name"><a
-                                                                href="/matongrunghoarungphuongnam.html"
-                                                                title="Mật ong rừng Hoa Rừng Phương Nam">Mật ong rừng
-                                                                Hoa Rừng Phương Nam</a></h3>
-                                                        <div class="price-box">
-                                                            <span class="discount">-
-                                                                50%
-                                                            </span>
-                                                            <span class="price">200.000₫</span>
-                                                            <span class="compare-price">400.000₫</span>
-
-                                                        </div>
-                                                    </div>
-                                                </form>
-                                            </div>
-                                        </div>
-
-                                        <div class="col-12 col-md-4 col-lg-4 col-lg-4 product-col">
-                                            <div class="item_product_main">
-
-
-
-
-                                                <form action="/cart/add" method="post"
-                                                    class="variants product-action wishItem" data-cart-form
-                                                    data-id="product-actions-28669297" enctype="multipart/form-data">
-                                                    <div class="product-thumbnail">
-                                                        <a class="image_thumb" href="/matongrunghoacaonguyen.html"
-                                                            title="Mật ong rừng Hoa Cao Nguyên">
-                                                            <img width="199" height="199"
-                                                                src="data:image/gif;base64,R0lGODlhAQABAAAAACwAAAAAAQABAAA="
-                                                                data-src="/image/16.png"
-                                                                alt="Mật ong rừng Hoa Cao Nguyên"
+                                                                data-src="/image/frame-7-1.webp"
+                                                                alt="Mật ong rừng Hoa Yên Bạch Honimore"
                                                                 class="lazyload img-responsive center-block" />
                                                         </a>
 
                                                         <div class="action-cart">
                                                             <input class="hidden" type="hidden" name="variantId"
-                                                                value="76947736" />
+                                                                value="76944878" />
                                                             <button
                                                                 class="btn btn-cart btn-left  btn btn-views left-to option-choice"
                                                                 title="Tùy chọn" type="button"
-                                                                onclick="window.location.href='/matongrunghoacaonguyen.html'">
+                                                                onclick="window.location.href='/matongrunghoayenbachhonimore.html'">
                                                                 Tùy chọn
                                                             </button>
                                                         </div>
                                                     </div>
                                                     <div class="info-product">
-                                                        <h3 class="product-name"><a href="/matongrunghoacaonguyen.html"
-                                                                title="Mật ong rừng Hoa Cao Nguyên">Mật ong rừng Hoa Cao
-                                                                Nguyên</a></h3>
+                                                        <h3 class="product-name"><a
+                                                                href="/matongrunghoayenbachhonimore.html"
+                                                                title="Mật ong rừng Hoa Yên Bạch Honimore">Mật ong rừng
+                                                                Hoa Yên Bạch Honimore</a></h3>
                                                         <div class="price-box">
-                                                            <span class="discount">-
-                                                                23%
-                                                            </span>
-                                                            <span class="price">230.000₫</span>
-                                                            <span class="compare-price">300.000₫</span>
-
+                                                            500.000₫
                                                         </div>
                                                     </div>
                                                 </form>
@@ -798,38 +703,181 @@
 
 
 
+
                                                 <form action="/cart/add" method="post"
                                                     class="variants product-action wishItem" data-cart-form
-                                                    data-id="product-actions-28668377" enctype="multipart/form-data">
+                                                    data-id="product-actions-28669297" enctype="multipart/form-data">
                                                     <div class="product-thumbnail">
-                                                        <a class="image_thumb"
-                                                            href="/matongrunghoayenbachhonimore.html"
-                                                            title="Mật ong rừng Hoa Yên Bạch Honimore">
+                                                        <a class="image_thumb" href="/matongrunghoacaonguyen.html"
+                                                            title="Mật ong rừng Hoa Cao Nguyên">
                                                             <img width="199" height="199"
                                                                 src="data:image/gif;base64,R0lGODlhAQABAAAAACwAAAAAAQABAAA="
-                                                                data-src="/image/frame-7-1.webp"
-                                                                alt="Mật ong rừng Hoa Yên Bạch Honimore"
+                                                                data-src="/image/16.png"
+                                                                alt="Mật ong rừng Hoa Cao Nguyên"
                                                                 class="lazyload img-responsive center-block" />
                                                         </a>
 
                                                         <div class="action-cart">
                                                             <input class="hidden" type="hidden" name="variantId"
-                                                                value="76944878" />
+                                                                value="76947736" />
                                                             <button
                                                                 class="btn btn-cart btn-left  btn btn-views left-to option-choice"
                                                                 title="Tùy chọn" type="button"
-                                                                onclick="window.location.href='/matongrunghoayenbachhonimore.html'">
+                                                                onclick="window.location.href='/matongrunghoacaonguyen.html'">
                                                                 Tùy chọn
                                                             </button>
                                                         </div>
                                                     </div>
                                                     <div class="info-product">
-                                                        <h3 class="product-name"><a
-                                                                href="/matongrunghoayenbachhonimore.html"
-                                                                title="Mật ong rừng Hoa Yên Bạch Honimore">Mật ong rừng
-                                                                Hoa Yên Bạch Honimore</a></h3>
+                                                        <h3 class="product-name"><a href="/matongrunghoacaonguyen.html"
+                                                                title="Mật ong rừng Hoa Cao Nguyên">Mật ong rừng Hoa Cao
+                                                                Nguyên</a></h3>
                                                         <div class="price-box">
-                                                            500.000₫
+                                                            <span class="discount">-
+                                                                23%
+                                                            </span>
+                                                            <span class="price">230.000₫</span>
+                                                            <span class="compare-price">300.000₫</span>
+
+                                                        </div>
+                                                    </div>
+                                                </form>
+                                            </div>
+                                        </div>
+
+                                        <div class="col-12 col-md-4 col-lg-4 col-lg-4 product-col">
+                                            <div class="item_product_main">
+
+
+
+
+                                                <form action="/cart/add" method="post"
+                                                    class="variants product-action wishItem" data-cart-form
+                                                    data-id="product-actions-28669317" enctype="multipart/form-data">
+                                                    <div class="product-thumbnail">
+                                                        <a class="image_thumb" href="/matongrunghoarungphuongnam.html"
+                                                            title="Mật ong rừng Hoa Rừng Phương Nam">
+                                                            <img width="199" height="199"
+                                                                src="data:image/gif;base64,R0lGODlhAQABAAAAACwAAAAAAQABAAA="
+                                                                data-src="/image/17.webp"
+                                                                alt="Mật ong rừng Hoa Rừng Phương Nam"
+                                                                class="lazyload img-responsive center-block" />
+                                                        </a>
+
+                                                        <div class="action-cart">
+                                                            <input type="hidden" name="variantId" value="76947769" />
+                                                            <button class="btn-buy btn-left btn-views add_to_cart "
+                                                                title="Mua ngay">
+                                                                Mua ngay
+                                                            </button>
+                                                        </div>
+                                                    </div>
+                                                    <div class="info-product">
+                                                        <h3 class="product-name"><a
+                                                                href="/matongrunghoarungphuongnam.html"
+                                                                title="Mật ong rừng Hoa Rừng Phương Nam">Mật ong rừng
+                                                                Hoa Rừng Phương Nam</a></h3>
+                                                        <div class="price-box">
+                                                            <span class="discount">-
+                                                                50%
+                                                            </span>
+                                                            <span class="price">200.000₫</span>
+                                                            <span class="compare-price">400.000₫</span>
+
+                                                        </div>
+                                                    </div>
+                                                </form>
+                                            </div>
+                                        </div>
+
+                                        <div class="col-12 col-md-4 col-lg-4 col-lg-4 product-col">
+                                            <div class="item_product_main">
+
+
+
+
+                                                <form action="/cart/add" method="post"
+                                                    class="variants product-action wishItem" data-cart-form
+                                                    data-id="product-actions-28669438" enctype="multipart/form-data">
+                                                    <div class="product-thumbnail">
+                                                        <a class="image_thumb" href="/mat-ong-chin-hoa-xuyen-chi"
+                                                            title="Mật ong chín Hoa Xuyến Chi">
+                                                            <img width="199" height="199"
+                                                                src="data:image/gif;base64,R0lGODlhAQABAAAAACwAAAAAAQABAAA="
+                                                                data-src="/image/4.webp"
+                                                                alt="Mật ong chín Hoa Xuyến Chi"
+                                                                class="lazyload img-responsive center-block" />
+                                                        </a>
+
+                                                        <div class="action-cart">
+                                                            <input class="hidden" type="hidden" name="variantId"
+                                                                value="76948080" />
+                                                            <button
+                                                                class="btn btn-cart btn-left  btn btn-views left-to option-choice"
+                                                                title="Tùy chọn" type="button"
+                                                                onclick="window.location.href='/mat-ong-chin-hoa-xuyen-chi'">
+                                                                Tùy chọn
+                                                            </button>
+                                                        </div>
+                                                    </div>
+                                                    <div class="info-product">
+                                                        <h3 class="product-name"><a href="/mat-ong-chin-hoa-xuyen-chi"
+                                                                title="Mật ong chín Hoa Xuyến Chi">Mật ong chín Hoa
+                                                                Xuyến Chi</a></h3>
+                                                        <div class="price-box">
+                                                            <span class="discount">-
+                                                                50%
+                                                            </span>
+                                                            <span class="price">300.000₫</span>
+                                                            <span class="compare-price">600.000₫</span>
+
+                                                        </div>
+                                                    </div>
+                                                </form>
+                                            </div>
+                                        </div>
+
+                                        <div class="col-12 col-md-4 col-lg-4 col-lg-4 product-col">
+                                            <div class="item_product_main">
+
+
+
+
+                                                <form action="/cart/add" method="post"
+                                                    class="variants product-action wishItem" data-cart-form
+                                                    data-id="product-actions-28669863" enctype="multipart/form-data">
+                                                    <div class="product-thumbnail">
+                                                        <a class="image_thumb" href="/matonghoasamngoclinh.html"
+                                                            title="Mật Ong Hoa Sâm Ngọc Linh">
+                                                            <img width="199" height="199"
+                                                                src="data:image/gif;base64,R0lGODlhAQABAAAAACwAAAAAAQABAAA="
+                                                                data-src="/image/9350631000056.webp"
+                                                                alt="Mật Ong Hoa Sâm Ngọc Linh"
+                                                                class="lazyload img-responsive center-block" />
+                                                        </a>
+
+                                                        <div class="action-cart">
+                                                            <input class="hidden" type="hidden" name="variantId"
+                                                                value="76948955" />
+                                                            <button
+                                                                class="btn btn-cart btn-left  btn btn-views left-to option-choice"
+                                                                title="Tùy chọn" type="button"
+                                                                onclick="window.location.href='/matonghoasamngoclinh.html'">
+                                                                Tùy chọn
+                                                            </button>
+                                                        </div>
+                                                    </div>
+                                                    <div class="info-product">
+                                                        <h3 class="product-name"><a href="/matonghoasamngoclinh.html"
+                                                                title="Mật Ong Hoa Sâm Ngọc Linh">Mật Ong Hoa Sâm Ngọc
+                                                                Linh</a></h3>
+                                                        <div class="price-box">
+                                                            <span class="discount">-
+                                                                33%
+                                                            </span>
+                                                            <span class="price">1.000.000₫</span>
+                                                            <span class="compare-price">1.500.000₫</span>
+
                                                         </div>
                                                     </div>
                                                 </form>
@@ -905,7 +953,7 @@
 
         <script>
 
-            var colId = 3041015;
+            var colId = 3040996;
 
             var selectedViewData = "data";
         </script>
@@ -946,66 +994,66 @@
                                 Thông tin khách hàng
                             </h4>
                             <ul class="list-menu toggle-mn" style="display:none;">
-
+                            
                                 <li class="li_menu">
                                     <a href="/" title="Trang chủ">Trang chủ</a>
                                 </li>
-
+                            
                                 <li class="li_menu">
                                     <a href="/tatcasanpham.html" title="Sản phẩm">Sản phẩm</a>
                                 </li>
-
+                            
                                 <li class="li_menu">
                                     <a href="/tintuc.html" title="Tin tức">Tin tức</a>
                                 </li>
-
+                            
                                 <li class="li_menu">
                                     <a href="/liên hệ.html" title="Liên hệ">Liên hệ</a>
                                 </li>
-
+                            
                                 <li class="li_menu">
                                     <a href="/gioithieu.html" title="Giới thiệu">Giới thiệu</a>
                                 </li>
-
+                            
                                 <li class="li_menu">
                                     <a href="/camnang.html" title="Cẩm nang">Cẩm nang</a>
                                 </li>
-
+                            
                             </ul>
-                        </div>
-                    </div>
-                    <div class="col-lg-3 col-md-4 col-12 footer-click">
-                        <div class="widget-ft">
-                            <h4 class="title-menu clicked">
-                                Chính sách mua hàng
-                            </h4>
-                            <ul class="list-menu toggle-mn" style="display:none;">
-
-                                <li class="li_menu">
-                                    <a href="/" title="Trang chủ">Trang chủ</a>
-                                </li>
-
-                                <li class="li_menu">
-                                    <a href="/tatcasanpham.html" title="Sản phẩm">Sản phẩm</a>
-                                </li>
-
-                                <li class="li_menu">
-                                    <a href="/tintuc.html" title="Tin tức">Tin tức</a>
-                                </li>
-
-                                <li class="li_menu">
-                                    <a href="/liên hệ.html" title="Liên hệ">Liên hệ</a>
-                                </li>
-
-                                <li class="li_menu">
-                                    <a href="/gioithieu.html" title="Giới thiệu">Giới thiệu</a>
-                                </li>
-
-                                <li class="li_menu">
-                                    <a href="/camnang.html" title="Cẩm nang">Cẩm nang</a>
-                                </li>
-
-                            </ul>
+                            </div>
+                            </div>
+                            <div class="col-lg-3 col-md-4 col-12 footer-click">
+                                <div class="widget-ft">
+                                    <h4 class="title-menu clicked">
+                                        Chính sách mua hàng
+                                    </h4>
+                                    <ul class="list-menu toggle-mn" style="display:none;">
+                            
+                                        <li class="li_menu">
+                                            <a href="/" title="Trang chủ">Trang chủ</a>
+                                        </li>
+                            
+                                        <li class="li_menu">
+                                            <a href="/tatcasanpham.html" title="Sản phẩm">Sản phẩm</a>
+                                        </li>
+                            
+                                        <li class="li_menu">
+                                            <a href="/tintuc.html" title="Tin tức">Tin tức</a>
+                                        </li>
+                            
+                                        <li class="li_menu">
+                                            <a href="/liên hệ.html" title="Liên hệ">Liên hệ</a>
+                                        </li>
+                            
+                                        <li class="li_menu">
+                                            <a href="/gioithieu.html" title="Giới thiệu">Giới thiệu</a>
+                                        </li>
+                            
+                                        <li class="li_menu">
+                                            <a href="/camnang.html" title="Cẩm nang">Cẩm nang</a>
+                                        </li>
+                            
+                                    </ul>
                         </div>
                     </div>
                     <div class="col-lg-3 col-md-12 col-12">
@@ -2080,7 +2128,7 @@
             </div>
             <div class="media-content bodycart-mobile">
             </div>
-            <a class="noti-cart-count" href="/cart.html" title="Giỏ hàng"> Giỏ hàng của bạn hiện có <span
+            <a class="noti-cart-count" href="/cart" title="Giỏ hàng"> Giỏ hàng của bạn hiện có <span
                     class="count_item_pr"></span> sản phẩm </a>
             <button title="Đóng" class="cart_btn-close iconclose">
                 <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1"
